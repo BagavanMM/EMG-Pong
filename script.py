@@ -55,15 +55,12 @@ def main ():
     # Subtract maximum from average values to get the threshold
     flex_thresh = 0.5*((max_val - vals_mean)**2) 
 
-    print("mean value")
-    print(vals_mean)
-    print("max value")
-    print(max_val)
+
     print("threshold")
     print(flex_thresh)
 
 
-    print("CALIBRATION DONE START PLAYING")
+    print("The Calibration is Complete! You can now start playing!")
     prev_time = int(round(time.time() * 1000))
 
     while True:
